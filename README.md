@@ -26,10 +26,12 @@ quickly get started with building self-hosted AI workflows.
 
 ### What's NOT included
 
+❌ Ollama - Cross-platform LLM platform to install and run the latest local LLMs
+
 ❌ [**LM Studio**](https://lmstudio.ai/) - Cross-platform LLM platform to install
 and run the latest local LLMs.
 
-⚠️ ***Install and configure it yourself before following
+⚠️ ***Install and configure LM Studio yourself before following
 these instructions!***
 
 ### What’s included
