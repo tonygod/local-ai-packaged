@@ -1,8 +1,8 @@
-# Self-hosted AI Package
+# Self-hosted AI Package (Nollama Fork)
 
 **Self-hosted AI Package** is an open, docker compose template that
 quickly bootstraps a fully featured Local AI and Low Code development
-environment including Ollama for your local LLMs, Open WebUI for an interface to chat with your N8N agents, and Supabase for your database, vector store, and authentication. 
+environment excluding Ollama and configured to use LM Studio for your local LLMs, Open WebUI for an interface to chat with your N8N agents, and Supabase for your database, vector store, and authentication. 
 
 This is Cole's version with a couple of improvements and the addition of Supabase, Open WebUI, Flowise, Neo4j, Langfuse, SearXNG, and Caddy!
 Also, the local RAG AI Agent workflows from the video will be automatically in your 
@@ -24,6 +24,16 @@ Curated by <https://github.com/n8n-io> and <https://github.com/coleam00>, it com
 platform with a curated list of compatible AI products and components to
 quickly get started with building self-hosted AI workflows.
 
+### What's NOT included
+
+❌ [**Ollama**](https://ollama.com/) - Cross-platform LLM platform to install and run the latest local LLMs
+
+❌ [**LM Studio**](https://lmstudio.ai/) - Cross-platform LLM platform to install
+and run the latest local LLMs.
+
+⚠️ ***Install and configure LM Studio yourself before following
+these instructions!***
+
 ### What’s included
 
 ✅ [**Self-hosted n8n**](https://n8n.io/) - Low-code platform with over 400
@@ -31,9 +41,6 @@ integrations and advanced AI components
 
 ✅ [**Supabase**](https://supabase.com/) - Open source database as a service -
 most widely used database for AI agents
-
-✅ [**Ollama**](https://ollama.com/) - Cross-platform LLM platform to install
-and run the latest local LLMs
 
 ✅ [**Open WebUI**](https://openwebui.com/) - ChatGPT-like interface to
 privately interact with your local models and N8N agents
@@ -179,7 +186,7 @@ Additionally, after you see "Editor is now accessible via: http://localhost:5678
 
 1. Head to http://localhost:5678/home/credentials
 2. Click on "Local Ollama service"
-3. Change the base URL to "http://host.docker.internal:11434/"
+3. Change the base URL to "http://host.docker.internal:1234/"
 
 ### For everyone else
 
