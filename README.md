@@ -26,7 +26,7 @@ quickly get started with building self-hosted AI workflows.
 
 ### What's NOT included
 
-❌ Ollama - Cross-platform LLM platform to install and run the latest local LLMs
+❌ [**Ollama**](https://ollama.com/) - Cross-platform LLM platform to install and run the latest local LLMs
 
 ❌ [**LM Studio**](https://lmstudio.ai/) - Cross-platform LLM platform to install
 and run the latest local LLMs.
@@ -41,7 +41,6 @@ integrations and advanced AI components
 
 ✅ [**Supabase**](https://supabase.com/) - Open source database as a service -
 most widely used database for AI agents
-
 
 ✅ [**Open WebUI**](https://openwebui.com/) - ChatGPT-like interface to
 privately interact with your local models and N8N agents
