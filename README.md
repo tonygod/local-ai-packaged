@@ -24,6 +24,14 @@ Curated by <https://github.com/n8n-io> and <https://github.com/coleam00>, it com
 platform with a curated list of compatible AI products and components to
 quickly get started with building self-hosted AI workflows.
 
+### What's NOT included
+
+❌ [**LM Studio**](https://lmstudio.ai/) - Cross-platform LLM platform to install
+and run the latest local LLMs.
+
+⚠️ ***Install and configure it yourself before following
+these instructions!***
+
 ### What’s included
 
 ✅ [**Self-hosted n8n**](https://n8n.io/) - Low-code platform with over 400
@@ -32,8 +40,6 @@ integrations and advanced AI components
 ✅ [**Supabase**](https://supabase.com/) - Open source database as a service -
 most widely used database for AI agents
 
-✅ [**LM Studio**](https://lmstudio.ai/) - Cross-platform LLM platform to install
-and run the latest local LLMs
 
 ✅ [**Open WebUI**](https://openwebui.com/) - ChatGPT-like interface to
 privately interact with your local models and N8N agents
